@@ -13,8 +13,6 @@ html {
   margin: 0 8px;
 }
 
-
-
 .search {
   position: relative;
 }
@@ -27,6 +25,10 @@ html {
   font-family: Avenic, sans-serif;
   color: #3d4e61;
   background-color: #fff;
+}
+
+.search__input::placeholder {
+  color: #3d4e61;
 }
 
 .search__input--big {
@@ -44,11 +46,11 @@ html {
   display: block;
 }
 
-.search--first{
+.search--first {
   margin-top: 20px;
 }
 
-.search:first-child{
+.search:first-child {
   margin-bottom: 20px;
 }
 
